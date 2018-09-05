@@ -6,7 +6,7 @@ layout: default
 
 {% include mathjax.html %}
 
-![]('x04.png')
-![]('x0400.png')
+![](x04.png)
+![](x0400.png)
 
 Last Modified: September 2018
