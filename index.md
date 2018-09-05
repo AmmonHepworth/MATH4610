@@ -4,7 +4,7 @@
 
 [2) See this repository](https://github.com/ammonhepworth/MATH4610)
 
-[3) See this folder for a compiled library example](https://github.com/ammonhepworth/math4610/hw1_prob3)
+[3) See this folder for a compiled library example](https://github.com/AmmonHepworth/MATH4610/tree/master/hw1/hw1_prob3)
 
 [4) OpenMP Example](https://github.com/ammonhepworth/MATH4610/hw1/openMP/openmpMan)
 
