@@ -1,21 +1,21 @@
 ## HW1
 
-[1) Machine Epsilon (All precisions)](https://ammonhepworth.github.io/MATH4610/maceps/macepsMan)
+[1) Machine Epsilon (All precisions)](https://ammonhepworth.github.io/MATH4610/hw1/maceps/macepsMan)
 
-[2) See this repository](https://github.com/ammonhepworth/math4610)
+[2) See this repository](https://github.com/ammonhepworth/MATH4610)
 
 [3) See this folder for a compiled library example](github.com/ammonhepworth/math4610/hw1_prob3)
 
-[4) See this repository](https://github.com/ammonhepworth/math4610)
+[4) OpenMP Example](https://github.com/ammonhepworth/MATH4610/hw1/openMP/openmpMan)
 
-[5) See this repository](https://github.com/ammonhepworth/math4610)
+[5) Taylor Series](https://github.com/ammonhepworth/math4610/hw1/problem5)
 
-[6) See this repository](https://github.com/ammonhepworth/math4610)
+[6) Antiderivatives](https://github.com/ammonhepworth/math4610/hw1/problem6)
 
-[7) See this repository](https://github.com/ammonhepworth/math4610)
+[7) Quadratic Equation](https://github.com/ammonhepworth/math4610/hw1/quadratic/quadraticMan)
 
-[8) See this repository](https://github.com/ammonhepworth/math4610)
+[8) Initial Value Problems](https://github.com/ammonhepworth/math4610/hw1/problem8)
 
-[9) See this repository](https://github.com/ammonhepworth/math4610)
+[9) Machine Precision Application Writeup](https://github.com/ammonhepworth/math4610/hw1/problem9)
 
-[10) See this repository](https://github.com/ammonhepworth/math4610)
+[10) IVP Graphs](https://github.com/ammonhepworth/math4610/hw1/problem10)

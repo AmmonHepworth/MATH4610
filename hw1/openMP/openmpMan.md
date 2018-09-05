@@ -2,7 +2,7 @@
 math: true
 layout: default
 ---
-<a href="https://ammonhepworth.github.io/MATH5620/index">HOME</a>
+<a href="https://ammonhepworth.github.io/MATH4610/index">HOME</a>
 
 {% include mathjax.html %}
 
