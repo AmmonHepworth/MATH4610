@@ -8,14 +8,14 @@
 
 [4) OpenMP Example](https://ammonhepworth.github.io/MATH4610/hw1/openMP/openmpMan)
 
-[5) Taylor Series](https://ammonhepworth.github.io/MATH4610/hw1/problem5)
+[5) Taylor Series](https://ammonhepworth.github.io/MATH4610/hw1/problem5/problem5)
 
-[6) Antiderivatives](https://ammonhepworth.github.io/MATH4610/hw1/problem6)
+[6) Antiderivatives](https://ammonhepworth.github.io/MATH4610/hw1/problem6/problem6)
 
 [7) Quadratic Equation](https://ammonhepworth.github.io/MATH4610/hw1/quadratic/quadraticMan)
 
-[8) Initial Value Problems](https://ammonhepworth.github.io/MATH4610/hw1/problem8)
+[8) Initial Value Problems](https://ammonhepworth.github.io/MATH4610/hw1/problem8/problem8)
 
-[9) Machine Precision Application Writeup](https://ammonhepworth.github.io/MATH4610/hw1/problem9)
+[9) Machine Precision Application Writeup](https://ammonhepworth.github.io/MATH4610/hw1/problem9/writeup)
 
-[10) IVP Graphs](https://ammonhepworth.github.io/MATH4610/hw1/problem10)
+[10) IVP Graphs](https://ammonhepworth.github.io/MATH4610/hw1/problem10/problem10)
