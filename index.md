@@ -12,7 +12,7 @@
 
 [6) Antiderivatives](https://ammonhepworth.github.io/MATH4610/hw1/problem6)
 
-[7) Quadratic Equation](https://github.com/ammonhepworth/math4610/hw1/quadratic/quadraticMan)
+[7) Quadratic Equation](https://ammonhepworth.github.io/MATH4610/hw1/quadratic/quadraticMan)
 
 [8) Initial Value Problems](https://ammonhepworth.github.io/MATH4610/hw1/problem8)
 
