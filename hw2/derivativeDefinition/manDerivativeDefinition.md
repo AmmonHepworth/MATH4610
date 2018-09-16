@@ -19,15 +19,16 @@ layout: default
 
 Computes the derivative using the definition. The definition is { $$\lim_{h\rightarrow0} \frac{f(x+h)-f(x)}{h}$$ }
 
-When computing the derivative of a polynomial, or any other function that reaches large values we can see the importance between absolute and relative error. Absolute error can be very large and vary dramatically, whilst relative error is much more comparable to other functions.
+When computing the derivative of a polynomial, or any other function that reaches large values we can see the importance between absolute and relative error. Absolute error can be very large and vary dramatically, whilst relative error is much more comparable to other functions. In the error graphs, the absolute error is the line above in all of our cases.
 
 An example of the derivative of sin(x) at x=1 when h is approaching 0 is shown below. Also included is the relative and absolute values on a log scale.
 ![](sinAprx.png)
 ![](sinError.png)
 
-Another example below is of the derivative of x^2+3x at x=15 when h is approaching 0 is shown below. Also included is the relative and absolute values on a log scale.
+Another example below is of the derivative of x^2+3x at x=15 when h is approaching 0 is shown below. Also included is the relative and absolute values on a log scale and a unmodified y scale and log x to show the difference between absolute and relative.
 ![](polyAprx.png)
 ![](polyError.png)
+![](errorComp.png)
 
 ## Input
 
