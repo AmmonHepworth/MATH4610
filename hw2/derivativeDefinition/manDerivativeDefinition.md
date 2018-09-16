@@ -17,7 +17,7 @@ layout: default
 
 ## Description
 
-Computes the derivative using the definition. The definition is \{ $$lim_{h\rightarrow0} {f(x+h)-f(x)}{h}$$ \}.
+Computes the derivative using the definition. The definition is { $$\lim_{h\rightarrow0} \frac{f(x+h)-f(x)}{h}$$ }
 
 When computing the derivative of a polynomial, or any other function that reaches large values we can see the importance between absolute and relative error. Absolute error can be very large and vary dramatically, whilst relative error is much more comparable to other functions.
 
