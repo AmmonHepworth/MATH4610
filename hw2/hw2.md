@@ -1,18 +1,18 @@
 ## HW1
 
-[Absolute and Relative Error](https://ammonhepworth.github.io/MATH4610/hw2/error/manError)
+[1. Absolute and Relative Error](https://ammonhepworth.github.io/MATH4610/hw2/error/manError)
 
-[Definition of the Derivative](https://ammonhepworth.github.io/MATH4610/hw2/derivativeDefinition/manDerivativeDefinition)
+[2. Definition of the Derivative](https://ammonhepworth.github.io/MATH4610/hw2/derivativeDefinition/manDerivativeDefinition)
 
-[](https://github.com/AmmonHepworth/MATH4610/tree/master/hw2/)
+[3. ](https://github.com/AmmonHepworth/MATH4610/tree/master/hw2/)
 
-[](https://ammonhepworth.github.io/MATH4610/hw2)
+[4. ](https://ammonhepworth.github.io/MATH4610/hw2)
 
-[](https://ammonhepworth.github.io/MATH4610/hw2/)
+[5. Bisection Method - Root Finding](https://ammonhepworth.github.io/MATH4610/hw2/bisection/manBisection)
 
-[](https://ammonhepworth.github.io/MATH4610/hw2/)
+[6. Newtons method - Root Finding](https://ammonhepworth.github.io/MATH4610/hw2/newton/manNewton)
 
-[](https://ammonhepworth.github.io/MATH4610/hw2/)
+[7. Secant method - Root Finding](https://ammonhepworth.github.io/MATH4610/hw2/secant/manSecant)
 
 [](https://ammonhepworth.github.io/MATH4610/hw2/)
 
