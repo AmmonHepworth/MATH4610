@@ -4,9 +4,9 @@
 
 [2. Definition of the Derivative](https://ammonhepworth.github.io/MATH4610/hw2/derivativeDefinition/manDerivativeDefinition)
 
-[3. ](https://github.com/AmmonHepworth/MATH4610/tree/master/hw2/)
+[3. Problem 3 - Transformed derivative and Taylor Series](https://github.com/AmmonHepworth/MATH4610/tree/master/hw2/problem3/manProblem3)
 
-[4. ](https://ammonhepworth.github.io/MATH4610/hw2)
+[4. Functional Iteration](https://ammonhepworth.github.io/MATH4610/hw2)
 
 [5. Bisection Method - Root Finding](https://ammonhepworth.github.io/MATH4610/hw2/bisection/manBisection)
 
