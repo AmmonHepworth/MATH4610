@@ -14,8 +14,8 @@
 
 [7. Secant method - Root Finding](https://ammonhepworth.github.io/MATH4610/hw2/secant/manSecant)
 
-[](https://ammonhepworth.github.io/MATH4610/hw2/)
+[8. Hybrid Bisection-Newton method - Root Finding](https://ammonhepworth.github.io/MATH4610/hw2/hybridBisectionNewton/hybridBisectionNewton)
 
-[](https://ammonhepworth.github.io/MATH4610/hw2/)
+[9. Hybrid Bisection-Secant method - Root Finding](https://ammonhepworth.github.io/MATH4610/hw2/hybridBisectionSecant/hybridBisectionSecant)
 
-[](https://ammonhepworth.github.io/MATH4610/hw2/)
+[10. Bracketing References](https://ammonhepworth.github.io/MATH4610/bracketing)
