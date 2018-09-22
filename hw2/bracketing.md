@@ -1,4 +1,3 @@
-
 ---
 math: true
 layout: default
@@ -7,7 +6,7 @@ layout: default
 
 {% include mathjax.html %}
 
-#Root Bracketing References
+# Root Bracketing References
 
 [The Birth of an Algorithm- HP (about their calculator numerical methods)](http://h20331.www2.hp.com/Hpsub/downloads/mar14/s07_birth_of_new_alogrithm_v3.pdf)
 

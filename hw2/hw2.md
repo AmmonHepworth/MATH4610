@@ -18,4 +18,4 @@
 
 [9. Hybrid Bisection-Secant method - Root Finding](https://ammonhepworth.github.io/MATH4610/hw2/hybridBisectionSecant/manHybridBisectionSecant)
 
-[10. Bracketing References](https://ammonhepworth.github.io/MATH4610/bracketing)
+[10. Bracketing References](https://ammonhepworth.github.io/MATH4610/hw2/bracketing)
