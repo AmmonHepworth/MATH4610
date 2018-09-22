@@ -12,7 +12,7 @@ $$ \frac{\sqrt{x+h}-\sqrt{x}}{h} = \frac{\sqrt{x+h}-\sqrt{x}}{h} * \frac{\sqrt{x
 = \frac{x+h-x}{h*(\sqrt{x+h}+\sqrt{x})} = \frac{h}{h*(\sqrt{x+h}+\sqrt{x})} = \frac{1}{\sqrt{x+h}+\sqrt{x}} $$
 
 
-We can see below that both methods are just about equal.
+We can see below that both methods are just about equal, at least at this specific point.
 
 Unmodified derivative definition:
 
@@ -26,5 +26,10 @@ Modified derivative definition:
 
 
 #Part b:Taylor Series
+
+The taylor series version evaluated correctly. The performance difference was too slight to notice, most likely because any factorial that would have a large impact is too large to fit in a double. Below is the graph of the plot and of the absolute error, respectively.
+
+![](sinPlot.png)
+![](sinError.png)
 
 Last Modified: September 2018
