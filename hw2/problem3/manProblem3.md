@@ -8,10 +8,21 @@ layout: default
 
 # Part a: manipulation of the approximation
 
-\\[ \frac{\sqrt{x+h}-\sqrt{x}}{h} = \frac{\sqrt{x+h}-\sqrt{x}}{h} * \frac{\sqrt{x+h}+\sqrt{x}}{\sqrt{x+h}+\sqrt{x}}
-= \frac{x+h-x}{h*(\sqrt{x+h}+\sqrt{x})} = \frac{h}{h*(\sqrt{x+h}+\sqrt{x})} = \frac{1}{\sqrt{x+h}+\sqrt{x}} \\]
+$$ \frac{\sqrt{x+h}-\sqrt{x}}{h} = \frac{\sqrt{x+h}-\sqrt{x}}{h} * \frac{\sqrt{x+h}+\sqrt{x}}{\sqrt{x+h}+\sqrt{x}}
+= \frac{x+h-x}{h*(\sqrt{x+h}+\sqrt{x})} = \frac{h}{h*(\sqrt{x+h}+\sqrt{x})} = \frac{1}{\sqrt{x+h}+\sqrt{x}} $$
 
 
+We can see below that both methods are just about equal.
+
+Unmodified derivative definition:
+
+![](sqrtPlot.png)
+![](sqrtError.png)
+
+Modified derivative definition:
+
+![](sqrtNewPlot.png)
+![](sqrtNewError.png)
 
 
 #Part b:Taylor Series
