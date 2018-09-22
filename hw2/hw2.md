@@ -1,4 +1,4 @@
-## HW1
+## HW2
 
 [1. Absolute and Relative Error](https://ammonhepworth.github.io/MATH4610/hw2/error/manError)
 
@@ -6,7 +6,7 @@
 
 [3. Problem 3 - Transformed derivative and Taylor Series](https://ammonhepworth.github.io/MATH4610/hw2/problem3/manProblem3)
 
-[4. Functional Iteration](https://ammonhepworth.github.io/MATH4610/hw2)
+[4. Functional Iteration](https://ammonhepworth.github.io/MATH4610/hw2/functionalIteration/manFunctionalIteration)
 
 [5. Bisection Method - Root Finding](https://ammonhepworth.github.io/MATH4610/hw2/bisection/manBisection)
 
