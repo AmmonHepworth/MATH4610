@@ -17,11 +17,12 @@ layout: default
 
 ## Description
 
-The newton method is a simple root finding algorithm that works by following the tangent of an initial guess until it hits the x-axis, and then repeating the process from that point. Formally, this is $$x_{k+1} = x_k - \frac{f(x_k)}{f'(x_k)}$$. This method requires only a single initial guess, but does require that you know the derivative of your function or have a way to approximate it. This method fails if the initial guess or one of the successive iteration lands on a point where the slope is 0 (ie horizontal), and it will have no intersect with the x-axis. Below, we can see an example of this when trying to compute the root of sin(pi*x) with an initial guess of 0.5. The guess is wildly off, to be expected.
+The secant method is a simple root finding algorithm that is similar to the newton method. Formally, it is $$x_{k+1} = x_k - \frac{f(x_k)*(x_k-x_{k-1}}{f(x_k)-f(x_{k-1}}$$. This method requires only the function and not its derivative. This method converges more quickly than the bisection method but is also more likely to fail.
+
 
 ## Input
 
-The function takes the initial guess and tolerance with templated types, an integer for maximum iterations, and two lambdas for the function and its derivative
+The function takes the initial guess and tolerance with templated types, an integer for maximum iterations, and a lambda for the function of which you want the roots
 
 ## Output
 

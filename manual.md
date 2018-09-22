@@ -3,14 +3,14 @@
 
 [Machine Epsilon (All precisions)](https://ammonhepworth.github.io/MATH4610/hw1/maceps/macepsMan)
 
-[Quadratic Equation](https://ammonhepworth.github.io/MATH4610/hw1/quadratic/quadraticMan)
-
 [Absolute and Relative Error](https://ammonhepworth.github.io/MATH4610/hw2/error/manError)
 
 [Definition of the Derivative](https://ammonhepworth.github.io/MATH4610/hw2/derivativeDefinition/manDerivativeDefinition)
 
 
 ## Root Finding
+
+[Quadratic Equation](https://ammonhepworth.github.io/MATH4610/hw1/quadratic/quadraticMan)
 
 [Functional Iteration](https://ammonhepworth.github.io/MATH4610/hw2/functionalIteration/manFunctionalIteration)
 
