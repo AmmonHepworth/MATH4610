@@ -8,7 +8,7 @@ layout: default
 
 # Machine Epsilon (both precisions)
 
-**Routine Name:** getMacEpsFloat
+**Routine Name:** getMacEpsDouble
 
 **Author:** Ammon Hepworth
 
@@ -25,7 +25,7 @@ No arguments are taken as parameters, simply give the type to be examined as a t
 
 ## Output
 
-A float type number that is the machine epsilon of a float for the system.
+A double type number that is the machine epsilon of a double for the system.
 
 ## Example
 
@@ -35,23 +35,23 @@ A float type number that is the machine epsilon of a float for the system.
 
 int main()
 {
-	std::cout << getMacEps<float>() << std::endl;
+	std::cout << getMacEps<double>() << std::endl;
 }
 {% endhighlight %}
 
 ## Result
 ```
-1.19209e-07
+2.22045e-16
 ```
 
 ## Code
 
 {% highlight c++ %}
-float getMacEps()
+double getMacEpsDouble()
 {
-	float value = 1;
-	float litOne = 1.0;
-	float litHalf = 0.5;
+	double value = 1;
+	double litOne = 1.0;
+	double litHalf = 0.5;
 	int precCount = 0;
 	while(litOne + litHalf*value != 1)
 	{

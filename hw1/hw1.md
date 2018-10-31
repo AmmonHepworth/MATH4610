@@ -1,6 +1,8 @@
 ## HW1
 
-[1) Machine Epsilon (All precisions)](https://ammonhepworth.github.io/MATH4610/hw1/maceps/macepsMan)
+[1) Machine Epsilon (float)](https://ammonhepworth.github.io/MATH4610/hw1/maceps/macepsMan)
+
+[1a) Machine Epsilon (double)](https://ammonhepworth.github.io/MATH4610/hw1/maceps/macepsMan2)
 
 [2) See this repository](https://github.com/ammonhepworth/MATH4610)
 
