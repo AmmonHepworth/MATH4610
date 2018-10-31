@@ -25,7 +25,7 @@ Takes the parameters a, b, and c as input along with their types as template par
 
 ## Output
 
-A pair of complex values containing both roots. If the roots do not have an imaginary component, it is left up to the user to extract just the real portion.
+A pair of complex values containing both roots. If the roots do not have an imaginary component, it is left up to the user to extract just the real portion. If there is only a single root, the same value will be contained in both parts of the pair.
 
 ## Example
 
