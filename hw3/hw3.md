@@ -1,4 +1,4 @@
-## HW3
+# HW3
 
 [1. Vector Norms](https://ammonhepworth.github.io/MATH4610/hw3/norm/manNorm)
 
