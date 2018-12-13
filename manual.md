@@ -23,3 +23,6 @@
 [Hybrid Bisection-Newton method - Root Finding](https://ammonhepworth.github.io/MATH4610/hw2/hybridBisectionNewton/manHybridBisectionNewton)
 
 [Hybrid Bisection-Secant method - Root Finding](https://ammonhepworth.github.io/MATH4610/hw2/hybridBisectionSecant/manHybridBisectionSecant)
+
+
+## Matrix/Vector Operations
