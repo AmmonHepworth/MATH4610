@@ -36,7 +36,7 @@ int main()
   Matrix<double,2,2> a = { { {1, 2},
                              {3, 4} } }; 
 
-  std::cout << a \* 2 << std::endl;
+  std::cout << a * 2 << std::endl;
 
 }
 {% endhighlight %}
@@ -51,14 +51,14 @@ int main()
 
 {% highlight c++ %}
 template<typename L, typename R, typename T = decltype(L()\*R()), std::size_t M, std::size_t N>
-Matrix<T,M,N> operator\*(const R rh, const Matrix<L,M,N> lh)
+Matrix<T,M,N> operator*(const R rh, const Matrix<L,M,N> lh)
 {
 	Matrix<T,M,N> temp = genZeros<T,M,N>();
 	for(int i=0; i<M; ++i)
 	{
 		for(int j=0; j<N; ++j)
 		{
-			temp[i][j] = lh[i][j] \* rh;
+			temp[i][j] = lh[i][j] * rh;
 		}
 	}
 	return temp;

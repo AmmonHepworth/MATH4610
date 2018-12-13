@@ -46,9 +46,9 @@ int main()
                             {7},
                             {9} } }; 
 
-  std::cout << a\*b << std::endl;
+  std::cout << a*b << std::endl;
 
-  std::cout << a\*c << std::endl;
+  std::cout << a*c << std::endl;
 
 }
 {% endhighlight %}
@@ -68,7 +68,7 @@ int main()
 
 {% highlight c++ %}
 template<typename L, typename R, typename T = decltype(L()*R()), std::size_t M, std::size_t N, std::size_t O >
-Matrix<T,M,O> operator\*(const Matrix<L,M,N> lh, const Matrix<R,N,O> rh)
+Matrix<T,M,O> operator*(const Matrix<L,M,N> lh, const Matrix<R,N,O> rh)
 {
 	Matrix<T,M,O> temp = genZeros<T,M,O>();
 	for(int i=0; i<M; ++i)

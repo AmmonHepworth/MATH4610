@@ -37,7 +37,7 @@
 ## 7. Parallel Matrix Multiplication
   [a. Parallel Matrix-Matrix](https://ammonhepworth.github.io/MATH4610/hw3/parallel/manParallelMatVecMult)
 
-  [b. Parallel Matrix-Vector](https://ammonhepworth.github.io/MATH4610/hw3/manParallelMatMult)
+  [b. Parallel Matrix-Vector](https://ammonhepworth.github.io/MATH4610/hw3/parallel/manParallelMatMult)
 
 ## 8. Additional Vector Operations
   [a. Dot Product](https://ammonhepworth.github.io/MATH4610/hw3/vOps/vOpsDot)

@@ -26,6 +26,33 @@ An MxN Matrix type of templated type as the first parameter is the only input fo
 
 Output for both methods is a double that is either the maximum column sum, for oneNormMat, or the maximum row sum for infNormMat.
 
+
+## Example
+
+{% highlight c++ %}
+#include "../matrixlib/matrix.h"
+#include "normMat.h"
+
+int main() {
+	Matrix<double,4,4> mat = { {
+														 { 1,2,3,4 },
+														 { 5,6,7,8 },
+														 { 9,5,2,3 },
+														 { 7,2,1,1 }
+														 } };
+
+	std::cout << oneNormMat(mat) << std::endl;
+
+	std::cout << infNormMat(mat) << std::endl;
+}
+{% endhighlight %}
+
+## Result
+```
+22
+26
+```
+
 ## Code
 
 {% highlight c++ %}
@@ -62,31 +89,5 @@ double infNormMat(Matrix<T,M,N> mat)
 	return *std::max_element(sums.begin(),sums.end());
 }
 {% endhighlight %}
-
-## Example
-
-{% highlight c++ %}
-#include "../matrixlib/matrix.h"
-#include "normMat.h"
-
-int main() {
-	Matrix<double,4,4> mat = { {
-														 {1,2,3,4},
-														 {5,6,7,8},
-														 {9,5,2,3},
-														 {7,2,1,1}
-														 } };
-
-	std::cout << oneNormMat(mat) << std::endl;
-
-	std::cout << infNormMat(mat) << std::endl;
-}
-{% endhighlight %}
-
-## Result
-```
-22
-26
-```
 
 Last Modified: November 2018
