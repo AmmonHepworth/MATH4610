@@ -8,7 +8,6 @@
 #include <string>
 #include <array>
 #include <cstdlib>
-#include "../maceps/maceps.h"
 
 template<typename T, std::size_t M, std::size_t N>
 using Matrix = std::array<std::array<T,N>,M>;
@@ -106,7 +105,7 @@ T trace(Matrix<T,M,M> mat)
   return ret;
 }
 
-  template<typename T, std::size_t M, std::size_t N>
+template<typename T, std::size_t M, std::size_t N>
 Matrix<double,M,1> forwardSubstitute(Matrix<T,M,N> L, Matrix<double,M,1> sol)
 {
   Matrix<double,M,1> x;
@@ -123,7 +122,7 @@ Matrix<double,M,1> forwardSubstitute(Matrix<T,M,N> L, Matrix<double,M,1> sol)
   return x;
 }
 
-  template<typename T, std::size_t M, std::size_t N>
+template<typename T, std::size_t M, std::size_t N>
 Matrix<double,M,1> backSubstitute(Matrix<T,M,N> U, Matrix<double,M,1> b)
 {
   Matrix<double,M,1> x = genZeros<double,M,1>();

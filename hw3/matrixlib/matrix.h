@@ -118,7 +118,7 @@ Matrix<double,M,1> forwardSubstitute(Matrix<T,M,N> L, Matrix<double,M,1> sol)
     {
       sum += L[i][j]*x[j][0];
     }
-    x[i][0] = sol[i][0] - sum;
+    x[i][0] = (sol[i][0] - sum)/ L[i][i];
   }
   return x;
 }

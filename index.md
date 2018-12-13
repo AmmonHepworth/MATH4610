@@ -4,4 +4,6 @@
 
 [Homework 2](https://ammonhepworth.github.io/MATH4610/hw2/hw2)
 
-[Homework 2](https://ammonhepworth.github.io/MATH4610/hw3/hw3)
+[Homework 3](https://ammonhepworth.github.io/MATH4610/hw3/hw3)
+
+[Homework 4](https://ammonhepworth.github.io/MATH4610/hw3/hw4)
