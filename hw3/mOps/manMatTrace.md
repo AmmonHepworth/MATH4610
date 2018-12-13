@@ -32,9 +32,9 @@ The output will be the trace of the matrix of whatever type the original matrix 
 {% highlight c++ %}
 int main() 
 {
-  Matrix<double,3,3> a = {{ {1, 2, 3},
+  Matrix<double,3,3> a ={ { {1, 2, 3},
                             {4, 5, 6},
-                            {7, 8, 9} }}; 
+                            {7, 8, 9} } };
 
   std::cout << trace(a) << std::endl;
 }

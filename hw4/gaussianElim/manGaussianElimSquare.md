@@ -32,9 +32,9 @@ The routine will perform the elimination in place, meaning it will directly edit
 {% highlight c++ %}
 int main()
 {
-  Matrix<double,3,3> a = {{ {1, 2, 3},
+  Matrix<double,3,3> a ={ { {1, 2, 3},
                             {3, 5, 7},
-                            {1, 5, 7} }}; 
+                            {1, 5, 7} } }; 
   rowReduce(a);
   std::cout << a << std::endl;
 }

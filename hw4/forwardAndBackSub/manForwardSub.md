@@ -33,15 +33,15 @@ It will produce a vector of the same size as the input vector that contains an a
 int main() 
 {
 
-  Matrix<double,4,4> A = {{ {1, 0, 0, 0},
+  Matrix<double,4,4> A ={ { {1, 0, 0, 0},
                             {1, 3, 0, 0},
                             {4, 3, 9, 0},
-                            {5, 2, 0, 9} }}; 
+                            {5, 2, 0, 9} } }; 
 
-  Matrix<double,4,1> b = {{ {1},
+  Matrix<double,4,1> b ={ { {1},
                             {2},
                             {8},
-                            {3} }}; 
+                            {3} } }; 
 
   auto sol = forwardSubstitute(A,b);
   std::cout << sol << std::endl;

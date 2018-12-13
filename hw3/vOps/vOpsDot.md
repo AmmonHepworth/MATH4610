@@ -32,13 +32,13 @@ The output will be a double scalar that is the dot product of the two vectors.
 {% highlight c++ %}
 int main() 
 {
-  Matrix<double,3,1> a = {{ {1},
+  Matrix<double,3,1> a = { { {1},
                             {2},
-                            {3} }};
+                            {3} } };
 
-  Matrix<double,3,1> b = {{ {1},
+  Matrix<double,3,1> b = { { {1},
                             {5},
-                            {7} }};
+                            {7} } };
 
   std::cout << dot(a,b) << std::endl;
 }

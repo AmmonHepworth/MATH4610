@@ -32,11 +32,11 @@ Outputs R, a matrix of equal size and type to the input. This matrix can be mult
 {% highlight c++ %}
 int main()
 {
-  Matrix<double,5,5> e = {{ {1, 7, 2, 1, 5},
+  Matrix<double,5,5> e ={ { {1, 7, 2, 1, 5},
                             {7, 74, 29, -3, 75},
                             {2, 29, 38, 6, 64},
                             {1, -3, 6, 25, -15},
-                            {5, 75, 64, -15, 190} }}; 
+                            {5, 75, 64, -15, 190} } };
   
   auto R =  choleskyFactorize(e);
   std::cout << "R" << std::endl << R << std::endl;

@@ -33,24 +33,24 @@ A block matrix of dimension M\*PxN\*Q of the type resulting from the multiplicat
 int main() 
 {
 
-  Matrix<double,2,2> a = {{ {1, 2},
-                            {3, 4} }}; 
+  Matrix<double,2,2> a ={ { {1, 2},
+                            {3, 4} } }; 
 
-  Matrix<double,2,2> b = {{ {0, 5},
-                            {6, 7} }}; 
+  Matrix<double,2,2> b ={ { {0, 5},
+                            {6, 7} } }; 
 
-  Matrix<double,3,1> c = {{ {1},
+  Matrix<double,3,1> c ={ { {1},
                             {2},
-                            {3} }}; 
+                            {3} } }; 
 
-  Matrix<double,1,2> d = {{ {0, 5} }};
+  Matrix<double,1,2> d ={ { {0, 5} } };
 
-  Matrix<double,3,2> e = {{ {1, 2},
+  Matrix<double,3,2> e ={ { {1, 2},
                             {3, 4},
-                            {1, 0} }}; 
+                            {1, 0} } }; 
 
-  Matrix<double,2,3> f = {{ {0, 5, 2},
-                            {6, 7, 3} }}; 
+  Matrix<double,2,3> f ={ { {0, 5, 2},
+                            {6, 7, 3} } }; 
 
   std::cout << kronecker(a,b) << std::endl;
   std::cout << "Outer Product" << std::endl;

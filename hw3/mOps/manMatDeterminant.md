@@ -32,10 +32,10 @@ The output will be the determinant of the matrix of whatever type the original m
 {% highlight c++ %}
 int main() 
 {
-  Matrix<double,4,4> a = {{ {1, 3, 5, 9},
+  Matrix<double,4,4> a ={ { {1, 3, 5, 9},
                             {1, 3, 1, 7},
                             {4, 3, 9, 7},
-                            {5, 2, 0, 9} }}; 
+                            {5, 2, 0, 9} } }; 
 
   std::cout << determinant(e) << std::endl;
 

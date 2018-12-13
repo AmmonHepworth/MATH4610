@@ -32,10 +32,10 @@ The output will be a matrix of equal dimensions and type with the result of the 
 {% highlight c++ %}
 int main() 
 {
-  Matrix<double,2,2> a = {{ {1, 2},
-                            {3, 4} }};
-  Matrix<double,2,2> b = {{ {9, 8},
-                            {7, 6} }};
+  Matrix<double,2,2> a ={ { {1, 2},
+                            {3, 4} } };
+  Matrix<double,2,2> b ={ { {9, 8},
+                            {7, 6} } };
 
   std::cout << a+b << std::endl << a-b;
 }

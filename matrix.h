@@ -74,9 +74,9 @@ double dot(Matrix<T,M,1> mat1, Matrix<T,M,1> mat2)
   template <typename T>
 Matrix<T,3,1> cross(Matrix<T,3,1> mat1, Matrix<T,3,1> mat2)
 {
-  Matrix<T,3,1> res = {{ {mat1[1][0]*mat2[2][0] - mat1[2][0]*mat2[1][0]},
+  Matrix<T,3,1> res = { { {mat1[1][0]*mat2[2][0] - mat1[2][0]*mat2[1][0]},
     {mat1[2][0]*mat2[0][0] - mat1[0][0]*mat2[2][0]},
-    {mat1[0][0]*mat2[1][0] - mat1[1][0]*mat2[0][0]}  }};
+    {mat1[0][0]*mat2[1][0] - mat1[1][0]*mat2[0][0]}  } };
   return res;
 }
 

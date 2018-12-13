@@ -33,8 +33,8 @@ The output will be a matrix of equal dimensions and type with the result of the 
 int main() 
 {
 
-  Matrix<double,2,2> a = {{ {1, 2},
-                            {3, 4} }}; 
+  Matrix<double,2,2> a = { { {1, 2},
+                             {3, 4} } }; 
 
   std::cout << a \* 2 << std::endl;
 

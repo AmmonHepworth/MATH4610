@@ -8,7 +8,7 @@ layout: default
 
 # Vector Operations - Scalar Multiplication
 
-**Routine Names:** operator*
+**Routine Names:** operator\*
 
 **Author:** Ammon Hepworth
 
@@ -33,8 +33,8 @@ The output will be a vector of equal size to the input with the scalar multiplie
 int main() 
 {
   double a = 2;
-  Matrix<double,2,1> b = {{ {9},
-                            {7} }};
+  Matrix<double,2,1> b = { { {9},
+                            {7} } };
 
   std::cout << a*b << std::endl;
 }
@@ -50,7 +50,7 @@ int main()
 
 {% highlight c++ %}
 template<typename L, typename R, typename T = decltype(L()*R()), std::size_t M, std::size_t N>
-Matrix<T,M,N> operator*(const R rh, const Matrix<L,M,N> lh)
+Matrix<T,M,N> operator\*(const R rh, const Matrix<L,M,N> lh)
 {
 	Matrix<T,M,N> temp = genZeros<T,M,N>();
 	for(int i=0; i<M; ++i)

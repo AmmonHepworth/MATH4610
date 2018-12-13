@@ -32,15 +32,15 @@ This will return the x vector for the system Ax=b, which has equal length to the
 {% highlight c++ %}
 int main()
 {
-  Matrix<double,4,4> A = {{ {1, 2, 3, 4},
+  Matrix<double,4,4> A ={ { {1, 2, 3, 4},
                             {4, 5, 6, 6},
                             {2, 5, 1, 2},
-                            {7, 8, 9, 7} }}; 
+                            {7, 8, 9, 7} } };
 
-  Matrix<double,4,1> b = {{ {31},
+  Matrix<double,4,1> b ={ { {31},
                             {58},
                             {49},
-                            {76} }}; 
+                            {76} } }; 
 
   auto sol = solveSystemGaussian(A,b);
   std::cout << sol << std::endl;

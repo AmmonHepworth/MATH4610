@@ -33,18 +33,18 @@ The output will be a matrix of dimension MxO and and of a type that results from
 int main() 
 {
 
-  Matrix<double,3,3> a = {{ {1, 2, 3},
+  Matrix<double,3,3> a ={ { {1, 2, 3},
                             {4, 5, 6},
-                            {7, 8, 9} }}; 
+                            {7, 8, 9} } }; 
 
-  Matrix<double,3,3> b = {{ {2, 8, 5},
+  Matrix<double,3,3> b ={ { {2, 8, 5},
                             {4, 1, 7},
-                            {6, 3, 9} }}; 
+                            {6, 3, 9} } }; 
 
   //vector
-  Matrix<double,3,1> c = {{ {5},
+  Matrix<double,3,1> c ={ { {5},
                             {7},
-                            {9} }}; 
+                            {9} } }; 
 
   std::cout << a\*b << std::endl;
 

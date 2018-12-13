@@ -33,9 +33,9 @@ The output will be a transposed matrix with the same type as the input and of di
 int main() 
 {
 
-  Matrix<double,3,2> a = {{ {1, 2},
+  Matrix<double,3,2> a ={ { {1, 2},
                             {3, 4},
-                            {5, 6} }}; 
+                            {5, 6} } }; 
 
   std::cout << transpose(a) << std::endl;
 }

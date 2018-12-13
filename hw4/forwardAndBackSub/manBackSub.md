@@ -33,15 +33,15 @@ It will produce a vector of the same size as the input vector that contains an a
 int main() 
 {
 
-  Matrix<double,4,4> A = {{ {4, -1, 2, 3},
+  Matrix<double,4,4> A ={ { {4, -1, 2, 3},
                             {0, -2, 7, -4},
                             {0, 0, 6, 5},
-                            {0, 0, 0, 3} }}; 
+                            {0, 0, 0, 3} } }; 
 
-  Matrix<double,4,1> b = {{ {20},
+  Matrix<double,4,1> b ={ { {20},
                             {-7},
                             {4},
-                            {6} }}; 
+                            {6} } }; 
 
   auto sol = backSubstitute(A,b);
   std::cout << sol << std::endl;

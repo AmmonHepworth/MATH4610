@@ -32,10 +32,10 @@ Gives a std::pair of vectors that are the orthogonal vectors. They will be of wh
 {% highlight c++ %}
 int main() 
 {
-  Matrix<double,2,1> a = {{ {2},
-                            {5} }}; 
-  Matrix<double,2,1> b = {{ {6},
-                            {5} }}; 
+  Matrix<double,2,1> a = { { {2},
+                            {5} } }; 
+  Matrix<double,2,1> b = { { {6},
+                            {5} } }; 
 
 
   auto basis = orthoBasis(a,b);

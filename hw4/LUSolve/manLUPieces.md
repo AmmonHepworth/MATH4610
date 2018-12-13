@@ -33,15 +33,15 @@ The result is a std::tuple containing three matrices. The first matrix is the lo
 int main()
 {
 
-  Matrix<double,4,4> A = {{ {1, 3, 5, 9},
+  Matrix<double,4,4> A ={ { {1, 3, 5, 9},
                             {1, 3, 1, 7},
                             {4, 3, 9, 7},
-                            {5, 2, 0, 9} }}; 
+                            {5, 2, 0, 9} } }; 
 
-  Matrix<double,4,1> b = {{ {1},
+  Matrix<double,4,1> b ={ { {1},
                             {2},
                             {8},
-                            {3} }}; 
+                            {3} } }; 
 
 	std::tuple<Matrix<double,4,4>, Matrix<double,4,4>, Matrix<int,4,4>> LUPieces = luFactorize(A);
   auto L = std::get<0>(LUPieces);
