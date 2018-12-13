@@ -6,9 +6,9 @@ layout: default
 
 {% include mathjax.html %}
 
-# Forward Substitution
+# Backwards Substitution
 
-**Routine Name:** forwardSubstitute
+**Routine Name:** backSubstitute
 
 **Author:** Ammon Hepworth
 
@@ -45,7 +45,7 @@ int main()
 
   auto sol = backSubstitute(A,b);
   std::cout << sol << std::endl;
-  std::cout << "Ax-b: " << std::endl << A\*sol - b << std::endl;
+  std::cout << "Ax-b: " << std::endl << A*sol - b << std::endl;
 
 }
 {% endhighlight %}

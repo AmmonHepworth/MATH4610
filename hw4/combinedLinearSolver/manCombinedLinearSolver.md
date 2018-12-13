@@ -44,7 +44,7 @@ int main()
 
   auto sol = solveSystemGaussian(A,b);
   std::cout << sol << std::endl;
-  std::cout << "Ax-b: " << std::endl << A\*sol - b << std::endl;
+  std::cout << "Ax-b: " << std::endl << A*sol - b << std::endl;
 }
 {% endhighlight %}
 

@@ -45,7 +45,7 @@ int main()
 
   auto sol = forwardSubstitute(A,b);
   std::cout << sol << std::endl;
-  std::cout << "Ax-b: " << std::endl << A\*sol - b << std::endl;
+  std::cout << "Ax-b: " << std::endl << A*sol - b << std::endl;
 }
 {% endhighlight %}
 
