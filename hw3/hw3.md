@@ -4,7 +4,7 @@
 
 [2. Vector Error](https://ammonhepworth.github.io/MATH4610/hw3/error/manError)
 
-# 3. Vector Operations
+## 3. Vector Operations
   [a/b. Addition/Subtraction](https://ammonhepworth.github.io/MATH4610/hw3/vOps/vOpsArith)
 
   [c. Scalar Multiplication](https://ammonhepworth.github.io/MATH4610/hw3/vOps/vOpsScalarMult)
@@ -16,7 +16,7 @@
 
 [4. Matrix Norms](https://ammonhepworth.github.io/MATH4610/hw3/normMat/manNormmat)
 
-# 5. Matrix Operations
+## 5. Matrix Operations
   [a/b. Addition/Subtraction](https://ammonhepworth.github.io/MATH4610/hw3/mOps/manMatAddSub)
 
   [c. Transpose](https://ammonhepworth.github.io/MATH4610/hw3/mOps/manMatTranspose)
@@ -27,19 +27,19 @@
 
   [f/g. Multiplication (mat-mat & mat-vec)](https://ammonhepworth.github.io/MATH4610/hw3/mOps/manMatMul)
 
-# 6. Additional Matrix Operations
+## 6. Additional Matrix Operations
   [a. Outer Product](https://ammonhepworth.github.io/MATH4610/hw3/mOps/manMatKronecker)
 
   [b. Kronecker Product](https://ammonhepworth.github.io/MATH4610/hw3/mOps/manMatKronecker)
   
   [c. Determinant](https://ammonhepworth.github.io/MATH4610/hw3/mOps/manMatDeterminant)
 
-# 7. Parallel Matrix Multiplication
+## 7. Parallel Matrix Multiplication
   [a. Parallel Matrix-Matrix](https://ammonhepworth.github.io/MATH4610/hw3/parallel/manParallelMatVecMult)
 
   [b. Parallel Matrix-Vector](https://ammonhepworth.github.io/MATH4610/hw3/manParallelMatMult)
 
-# 8. Additional Vector Operations
+## 8. Additional Vector Operations
   [a. Dot Product](https://ammonhepworth.github.io/MATH4610/hw3/vOps/vOpsDot)
 
   [b. Cross Product](https://ammonhepworth.github.io/MATH4610/hw3/vOps/vOpsCross)
