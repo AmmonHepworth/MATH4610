@@ -6,16 +6,15 @@ layout: default
 
 {% include mathjax.html %}
 
-# 
+# Serial/Parallel comparison
 
-**Routine Name:** getMacEps
 
 **Author:** Ammon Hepworth
 
-**Language:** C++ compiled with g++
-
 
 ## Description
+
+As we can see, when doing the power iteration, the parallelism is almost cutting our times in half.
 
 |matrix size  |   average serial time(ms)   |    average parallel time (ms) |
 |-------------|-----------------------------|-------------------------------|
