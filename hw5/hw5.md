@@ -7,8 +7,8 @@
 [4. Gauss-Seidel](https://ammonhepworth.github.io/MATH4610/hw5/gaussSeidel/manGaussSeidel)
 [5. Steepest Descent](https://ammonhepworth.github.io/MATH4610/hw5/steepestDescent/manSteepestDescent)
 [6. Conjugate Gradient](https://ammonhepworth.github.io/MATH4610/hw5/conjugateGradient/manConjugateGradient)
-[7. OpenMP Jacobi Iteration](https://ammonhepworth.github.io/MATH4610/hw5/)
-[8. OpenMP Gauss-Seidel](https://ammonhepworth.github.io/MATH4610/hw5/)
-[9. OpenMP Conjugate Gradient](https://ammonhepworth.github.io/MATH4610/hw5/)
+[7. OpenMP Jacobi Iteration](https://ammonhepworth.github.io/MATH4610/hw5/jacobi/manParallelJacobi)
+[8. OpenMP Gauss-Seidel](https://ammonhepworth.github.io/MATH4610/hw5/gaussSeidel/manParallelGaussSeidel)
+[9. OpenMP Conjugate Gradient](https://ammonhepworth.github.io/MATH4610/hw5/conjugateGradient/manParallelConjugateGradient)
 [10. Comparisions](https://ammonhepworth.github.io/MATH4610/hw5/)
 
