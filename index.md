@@ -7,3 +7,6 @@
 [Homework 3](https://ammonhepworth.github.io/MATH4610/hw3/hw3)
 
 [Homework 4](https://ammonhepworth.github.io/MATH4610/hw4/hw4)
+
+[Homework 4](https://ammonhepworth.github.io/MATH4610/hw5/hw5)
+
