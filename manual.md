@@ -110,3 +110,18 @@
 [Generate Symmetric, Diagonally Dominant Matrix](https://ammonhepworth.github.io/MATH4610/hw5/genMat/manGenMat)
 
 [Generate Right Hand Product](https://ammonhepworth.github.io/MATH4610/hw5/genMat/manGenRightHand)
+
+
+## EigenValue Methods
+
+[Power Iteration](https://ammonhepworth.github.io/MATH4610/hw6/powerIter/manPowerIter)
+
+[Inverse Power Iteration](https://ammonhepworth.github.io/MATH4610/hw6/powerIter/manInversePowerIter)
+
+[2-Condition Number](https://ammonhepworth.github.io/MATH4610/hw6/powerIter/manCondition)
+
+[Parallel Power Iteration](https://ammonhepworth.github.io/MATH4610/hw6/powerIter/manParallelPowerIter)
+
+[Parallel Inverse Power Iteration](https://ammonhepworth.github.io/MATH4610/hw6/powerIter/manParallelInversePowerIter)
+
+[Parallel 2-Condition Number](https://ammonhepworth.github.io/MATH4610/hw6/powerIter/manParallelCondition)
