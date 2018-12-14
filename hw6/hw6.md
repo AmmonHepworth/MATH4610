@@ -12,6 +12,6 @@
 
 [6. Parallel 2-Condition Number](https://ammonhepworth.github.io/MATH4610/hw6/powerIter/manParallelCondition)
 
-[7. Serial vs Parallel Condition Number Comparison](https://ammonhepworth.github.io/MATH4610/hw6/powerIter/)
+[7. Serial vs Parallel Condition Number Comparison](https://ammonhepworth.github.io/MATH4610/hw6/powerIter/manConditionCompare)
 
 [8. Serial vs Parallel](https://ammonhepworth.github.io/MATH4610/hw6/powerIter/)
