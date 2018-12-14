@@ -17,16 +17,16 @@ layout: default
 
 ## Description
 
-matrix size     average serial time(ms)       average parallel time (ms)
-40              52.7                          32.5
+matrix size  |   average serial time(ms)   |    average parallel time (ms)
+40       |      52.7             |            32.5
 
-80              117.2                         67.2
+80       |      117.2            |            67.2
 
-160             201.5                         121.2
+160      |      201.5            |            121.2
 
-320             444.5                         256
+320      |      444.5            |            256
 
-640             757.6                         529.8
+640      |      757.6            |            529.8
 
 ![Timings](https://github.com/AmmonHepworth/MATH4610/raw/master/hw6/powerIter/times.png "Timings")
 
