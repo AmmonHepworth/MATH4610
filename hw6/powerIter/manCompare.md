@@ -29,6 +29,7 @@ matrix size     average serial time(ms)       average parallel time (ms)
 320             444.5                         256
 640             757.6                         529.8
 
-![Timings]( "Timings")
+![Timings](https://github.com/AmmonHepworth/MATH4610/raw/master/hw6/powerIter/times.png "Timings")
+
 
 Last Modified: December 2018
