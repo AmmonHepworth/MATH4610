@@ -69,7 +69,7 @@ Parallel Largest eigenvalue: 47.1397
 #include <cmath>
 
 template <typename T, size_t M, size_t N>
-double powerIteration(Matrix<T,M,N> A)
+double parallelPowerIteration(Matrix<T,M,N> A)
 {
 	auto v = genRandoms<double,M,1>();
 	Matrix<double,M,1> w;

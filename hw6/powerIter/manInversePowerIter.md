@@ -85,4 +85,4 @@ double inversePowerIteration(Matrix<T,M,N> A)
 }
 {% endhighlight %}
 
-Last Modified: Feb 2018
+Last Modified: December 2018

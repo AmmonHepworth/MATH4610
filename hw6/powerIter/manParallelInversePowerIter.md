@@ -70,7 +70,7 @@ Parallel Smallest eigenvalue: 6.2043
 #include <cmath>
 
 template <typename T, size_t M, size_t N>
-double inversePowerIteration(Matrix<T,M,N> A)
+double parallelInversePowerIteration(Matrix<T,M,N> A)
 {
 	auto v = genRandoms<double,M,1>();
 	Matrix<double,M,1> w;
@@ -88,4 +88,4 @@ double inversePowerIteration(Matrix<T,M,N> A)
 }
 {% endhighlight %}
 
-Last Modified: Feb 2018
+Last Modified: December 2018
