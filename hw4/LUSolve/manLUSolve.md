@@ -25,7 +25,7 @@ This method will take in the matrix A, a square matrix of any type, and b, our s
 
 ## Output
 
-The result is the vector x that solves the system Ax=b
+The result is the vector x, of type double and dimensions equal to b, that solves the system Ax=b
 
 ## Example
 
@@ -45,7 +45,7 @@ int main()
 
   auto sol = LUSolveSystem(A,b);
   std::cout << "x" << std::endl << sol << std::endl;
-  std::cout << "Ax-b" << std::endl << A\*sol - b << std::endl;
+  std::cout << "Ax-b" << std::endl << A*sol - b << std::endl;
 }
 {% endhighlight %}
 
