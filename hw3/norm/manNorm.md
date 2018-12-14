@@ -17,7 +17,7 @@ layout: default
 
 ## Description
 
-This algorithm is a general purpose vector norm solver. It will find any arbitrary vector p-norm, including infinity. To get the infinity norm, pass the numeric limit of the integer and it will return the appropriate value. The 1-norm will give a summation of the vector, the 2-norm will be the square root of the sum of the squares, and the infinity-norm will give the max element, for example. This code will produce a norm of ANY NUMBER.
+This algorithm is a general purpose vector norm solver. It will find any arbitrary vector p-norm, including infinity. To get the infinity norm, pass the numeric limit of the integer and it will return the appropriate value. The 1-norm will give a summation of the vector, the 2-norm will be the square root of the sum of the squares, and the infinity-norm will give the max element, for example. This code will produce a norm of ANY NUMBER. Note that the norm where p=2 is also called the Frobenius norm.
 
 ## Input
 
