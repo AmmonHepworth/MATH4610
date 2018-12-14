@@ -6,7 +6,9 @@ layout: default
 
 {% include mathjax.html %}
 
-# Root Bracketing References
+# Root Bracketing Writeup
+
+Bisection method is generally considered to be slow, and so current research exists to try and improve methods. Since root finding is so common, finding even a slightly better one will be a big difference in some applications. The newton and secant methods are not considered bracketing methods, since they dont guarantee a small successive bracket like bisection does. Regular Falsi methods will converge faster than bisection, but still arent considered state of the art. Bracketing methods must be given two points, and those points must have opposite sign of each other to know that there will be a root. This can be bad if the function often crosses the axis.
 
 [The Birth of an Algorithm- HP (about their calculator numerical methods)](http://h20331.www2.hp.com/Hpsub/downloads/mar14/s07_birth_of_new_alogrithm_v3.pdf)
 

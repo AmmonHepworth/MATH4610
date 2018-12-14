@@ -10,5 +10,5 @@
 
 [Homework 5](https://ammonhepworth.github.io/MATH4610/hw5/hw5)
 
-[Homework 6](https://ammonhepworth.github.io/MATH4610/hw5/hw6)
+[Homework 6](https://ammonhepworth.github.io/MATH4610/hw6/hw6)
 
